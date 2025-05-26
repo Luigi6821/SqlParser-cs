@@ -6,6 +6,7 @@ on:
         default: false
         required: true
         type: boolean
+  workflow_dispatch:
 
 jobs:
   build-and-sign:
